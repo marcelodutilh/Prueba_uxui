@@ -1,0 +1,29 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.icono{
+    font-weight: 700;
+}
+
+hr{
+    border-width: 2px;
+    border-color: grey;
+    width: 30%;
+}
+
+.section1{
+    background-image: url("../img/IMG_2172.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.two-cols-paragraph{
+    column-count: 2;
+}
+
+.hr1{
+    border-width: 2px;
+    border-color: grey;
+    width: 80%;
+}
