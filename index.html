@@ -19,7 +19,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
 		<a class="navbar-brand icono text-white" href="#">MD</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
 			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,14 +30,14 @@
 				<a class="nav-item nav-link active text-white" href="#About-me">About me <span
 						class="sr-only">(current)</span></a>
 				<a class="nav-item nav-link text-white" href="#Experience">Experience</a>
-				<a class="nav-item nav-link text-white" href="#">Portofolio</a>
-				<a class="nav-item nav-link text-white" href="#">Contact</a>
+				<a class="nav-item nav-link text-white" href="#Portofolio">Portofolio</a>
+				<a class="nav-item nav-link text-white" href="#Contact">Contact</a>
 			</div>
 		</div>
 	</nav>
 
 	<section class="section1">
-		<h1 class="text-center"> Marcelo
+		<h1 class="text-center mt-5"> Marcelo
 			<hr> Dutilh</h1>
 	</section>
 
@@ -76,16 +76,16 @@
 
 
 			</div>
-			<div class="col-xs-12 col-md-6">
+			<div class="col-xs-12 col-md-6 mb-5 pb-3">
 				<img src="assets/img/desafio-latam-logonegro.png" alt="desafio-latam-logonegro">
 
 			</div>
 		</div>
 	</section>
-	<section class="container-fluid background-color">
+	<section class="container background-color" id="Portofolio">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="text-center mt-3">Mis Últimos Trabajos</h2>
+				<h2 class="text-center mt-5">Mis Últimos Trabajos</h2>
 				<hr class="hr1">
 
 			</div>
@@ -165,6 +165,46 @@
 
 	</section>
 
+	<div id="Contact" class="typeform-widget" data-url="https://marcelo033037.typeform.com/to/aFrmxn"
+		style="width: 100%; height: 500px;"></div>
+	<script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+	<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a
+			href="https://admin.typeform.com/signup?utm_campaign=aFrmxn&utm_source=typeform.com-14790272-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
+			style="color: #999" target="_blank">Typeform</a> </div>
+
+	<footer class="container-fluid">
+		<div class="row text-center text-white">
+			<div class="col-xs-12 col-md-6">
+				<h2 class="my-4">Marcelo Dutilh </h2>
+
+			</div>
+			<div class="col-xs-12 col-md-6">
+				<div class="container">
+					<div class="row">
+						<div class=" cols-xs-12 col-6 my-4">
+							<a href="https://github.com/marcelodutilh/Prueba_uxui" class="text-white" target= "_blank"><i class="fab fa-github fa-3x" data-container="body" data-toggle="popover"
+								data-placement="top" data-content="github prueba repo" data-trigger="hover"></i></a>
+
+
+						</div>
+						<div class="col-xs-12 col-6 my-4">
+							<a href="https://www.linkedin.com/in/marcelo-dutilh-274079160/" class="text-white" target= "_blank">
+							<i class="fab fa-linkedin fa-3x" data-container="body" data-toggle="popover"
+								data-placement="top" data-content="linkedin" data-trigger="hover"></i></a>
+
+
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+	</footer>
 
 
 
@@ -186,6 +226,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
+	<script src="assets/js/script.js"></script>
 
 </body>
 

@@ -29,5 +29,23 @@ hr{
 }
 
 .background-color{
-    background-color:beige;
+    background-color:azure;
 }
+
+.icono-right{
+    position: relative;
+    left: -30px;
+
+}
+
+.icono-left{
+    position: relative;
+    right: -30px;
+
+}
+
+footer{
+    height: 100%;
+    background-color: grey;
+}
+
