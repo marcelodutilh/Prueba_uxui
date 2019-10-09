@@ -15,7 +15,7 @@ hr{
 .section1{
     background-image: url("../img/IMG_2172.png");
     background-size: cover;
-    height: 70vh;                   /* <------ */
+    height: 70vh;
     background-repeat:   no-repeat;
     background-position: center center;  
 }
@@ -49,7 +49,7 @@ hr{
 footer{
     height: 100%;
     background-color: grey;
-}
+
 
 
 
