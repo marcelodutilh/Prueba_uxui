@@ -13,9 +13,9 @@ hr{
 }
 
 .section1{
-    background-image: url("../img/IMG_2172.jpeg");
+    background-image: url("../img/IMG_2172.png");
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
 }
 
 .two-cols-paragraph{
@@ -48,4 +48,6 @@ footer{
     height: 100%;
     background-color: grey;
 }
+
+
 
